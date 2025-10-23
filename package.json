@@ -15,7 +15,8 @@
     "test": "fedx-scripts jest --coverage"
   },
   "files": [
-    "/dist"
+    "/dist",
+    "src/_footer.scss"
   ],
   "husky": {
     "hooks": {
@@ -50,7 +51,8 @@
     "react-router-dom": "6.20.1",
     "react-test-renderer": "17.0.2",
     "redux": "4.2.1",
-    "semantic-release": "21.1.2"
+    "semantic-release": "21.1.2",
+    "react-intl": "^6.4.4"
   },
   "dependencies": {
     "@edx/paragon": "^21.3.1",
@@ -65,6 +67,7 @@
     "@edx/frontend-platform": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0",
     "prop-types": "^15.5.10",
     "react": "^16.9.0 || ^17.0.0",
-    "react-dom": "^16.9.0 || ^17.0.0"
+    "react-dom": "^16.9.0 || ^17.0.0",
+    "react-intl": "^6.4.4"
   }
 }
